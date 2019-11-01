@@ -13,11 +13,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/predatorpc/redis/internal"
-	"github.com/predatorpc/redis/internal/hashtag"
-	"github.com/predatorpc/redis/internal/pool"
-	"github.com/predatorpc/redis/internal/proto"
-	"github.com/predatorpc/redis/internal/singleflight"
+	"github.com/cpamonstr/redis/internal"
+	"github.com/cpamonstr/redis/internal/hashtag"
+	"github.com/cpamonstr/redis/internal/pool"
+	"github.com/cpamonstr/redis/internal/proto"
+	"github.com/cpamonstr/redis/internal/singleflight"
 )
 
 var errClusterNoNodes = fmt.Errorf("redis: cluster has no nodes")

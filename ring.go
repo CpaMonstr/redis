@@ -10,10 +10,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/predatorpc/redis/internal"
-	"github.com/predatorpc/redis/internal/consistenthash"
-	"github.com/predatorpc/redis/internal/hashtag"
-	"github.com/predatorpc/redis/internal/pool"
+	"github.com/cpamonstr/redis/internal"
+	"github.com/cpamonstr/redis/internal/consistenthash"
+	"github.com/cpamonstr/redis/internal/hashtag"
+	"github.com/cpamonstr/redis/internal/pool"
 )
 
 // Hash is type of hash function used in consistent hash.
