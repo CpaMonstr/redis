@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/predatorpc/redis/internal"
+	"github.com/cpamonstr/redis/internal"
 )
 
 var ErrClosed = errors.New("redis: client is closed")

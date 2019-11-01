@@ -3,7 +3,7 @@ package redis
 import (
 	"sync"
 
-	"github.com/predatorpc/redis/internal/pool"
+	"github.com/cpamonstr/redis/internal/pool"
 )
 
 type pipelineExecer func([]Cmder) error

@@ -7,9 +7,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/predatorpc/redis/internal"
-	"github.com/predatorpc/redis/internal/pool"
-	"github.com/predatorpc/redis/internal/proto"
+	"github.com/cpamonstr/redis/internal"
+	"github.com/cpamonstr/redis/internal/pool"
+	"github.com/cpamonstr/redis/internal/proto"
 )
 
 // Nil reply Redis returns when key does not exist.

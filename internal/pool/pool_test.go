@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/predatorpc/redis/internal/pool"
+	"github.com/cpamonstr/redis/internal/pool"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

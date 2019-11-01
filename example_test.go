@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/predatorpc/redis"
+	"github.com/cpamonstr/redis"
 )
 
 var redisdb *redis.Client

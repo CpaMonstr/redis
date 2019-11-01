@@ -5,7 +5,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/predatorpc/redis/internal/proto"
+	"github.com/cpamonstr/redis/internal/proto"
 )
 
 func IsRetryableError(err error, retryTimeout bool) bool {

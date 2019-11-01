@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/predatorpc/redis/internal"
-	"github.com/predatorpc/redis/internal/proto"
+	"github.com/cpamonstr/redis/internal"
+	"github.com/cpamonstr/redis/internal/proto"
 )
 
 type Cmder interface {

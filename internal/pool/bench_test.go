@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/predatorpc/redis/internal/pool"
+	"github.com/cpamonstr/redis/internal/pool"
 )
 
 type poolGetPutBenchmark struct {

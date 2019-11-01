@@ -1,6 +1,6 @@
 package internal
 
-import "github.com/predatorpc/redis/internal/util"
+import "github.com/cpamonstr/redis/internal/util"
 
 func ToLower(s string) string {
 	if isLower(s) {

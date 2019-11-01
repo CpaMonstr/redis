@@ -3,7 +3,7 @@ package redis_test
 import (
 	"fmt"
 
-	"github.com/predatorpc/redis"
+	"github.com/cpamonstr/redis"
 )
 
 func Example_instrumentation() {

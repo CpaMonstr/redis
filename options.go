@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/predatorpc/redis/internal/pool"
+	"github.com/cpamonstr/redis/internal/pool"
 )
 
 // Limiter is the interface of a rate limiter or a circuit breaker.

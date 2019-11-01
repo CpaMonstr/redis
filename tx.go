@@ -1,8 +1,8 @@
 package redis
 
 import (
-	"github.com/predatorpc/redis/internal/pool"
-	"github.com/predatorpc/redis/internal/proto"
+	"github.com/cpamonstr/redis/internal/pool"
+	"github.com/cpamonstr/redis/internal/proto"
 )
 
 // TxFailedErr transaction redis failed.

@@ -3,7 +3,7 @@ package redis_test
 import (
 	"fmt"
 
-	"github.com/predatorpc/redis"
+	"github.com/cpamonstr/redis"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

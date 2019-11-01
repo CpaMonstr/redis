@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/predatorpc/redis"
+	"github.com/cpamonstr/redis"
 )
 
 func benchmarkRedisClient(poolSize int) *redis.Client {
